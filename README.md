@@ -183,3 +183,8 @@ are given for reference):
 * Librosa 0.5.0
 * tqdm 4.11.2 (only for preprocessing training data)
 * Sox 1.2.7 (only for preprocessing training data)
+
+## Container
+```bash
+singularity build englishspeechupsampler-build.simg docker://shinyeyes/englishspeechupsampler
+```
