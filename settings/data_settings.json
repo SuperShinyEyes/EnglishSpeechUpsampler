@@ -1,5 +1,5 @@
 {
-  "input_dir_name_base": "/home/paperspace/Documents/TEDLIUM/TEDLIUM_release2/{}/sph",
+  "input_dir_name_base": "/storage_zpool/data//TEDLIUM_release1/{}/sph",
   "input_dir_name_dirs": [
     "dev",
     "test",
@@ -14,5 +14,5 @@
   "end_time": -30,
   "sampling_rate_units": "kbps",
   "downsample_rate": 4000,
-  "output_dir_name_base": "/home/paperspace/Documents/TEDLIUM/TEDLIUM_release2/preprocessed"
+  "output_dir_name_base": "/storage_zpool/data//TEDLIUM_release1/preprocessed"
 }
