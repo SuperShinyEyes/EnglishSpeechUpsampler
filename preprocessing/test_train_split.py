@@ -15,9 +15,10 @@ np.random.seed(0)
 
 
 def write_csv(filename, pairs):
-    with open(filename, 'wb') as csvfile:
+    with open(filename, 'w') as csvfile:
         spamwriter = csv.writer(csvfile)
         for pair in pairs:
+            print("pair",pair)
             spamwriter.writerow(pair)
 
 
